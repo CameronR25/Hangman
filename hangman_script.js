@@ -116,31 +116,31 @@ const initializeGame = (button, clickedLetter) => {
     wrongGuessCount++;
     if (wrongGuessCount === 0) {
       hangmanImage.src = 
-      `images/start.png`;
+      `start.png`;
     }
     if (wrongGuessCount === 1) {
       hangmanImage.src = 
-      `images/1_wrong.png`;
+      `1_wrong.png`;
     }
     if (wrongGuessCount === 2) {
       hangmanImage.src = 
-      `images/2_wrong.png`;
+      `2_wrong.png`;
     }
     if (wrongGuessCount === 3) {
       hangmanImage.src = 
-      `images/3_wrong.png`;
+      `3_wrong.png`;
     }
     if (wrongGuessCount == 4) {
       hangmanImage.src = 
-      `images/4_wrong.png`;
+      `4_wrong.png`;
     }
     if (wrongGuessCount === 5) {
       hangmanImage.src = 
-      `images/5_wrong.png`;
+      `5_wrong.png`;
     }
     if (wrongGuessCount === 6) {
       hangmanImage.src =
-      `images/6_wrong.png`;
+      `6_wrong.png`;
     }
   }
 
