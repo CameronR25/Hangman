@@ -66,7 +66,7 @@ const resetGame = () => {
   //Resetting all game variables and UI elements
   correctLetters = [];
   wrongGuessCount = 0;
-  hangmanImage.src = `images/start.png`;
+  hangmanImage.src = `start.png`;
   guessCounter.innerText = `${wrongGuessCount} / ${maxGuesses}`;
   virtualKeyboard
     .querySelectorAll("button")
